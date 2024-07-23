@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 60vh;
+    /* background-image: url('./images/cover.webp'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/cover.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: 4;
+    font-size: 1.1rem;
+}
+
+.nav-right{
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    line-height: 3;
+}
+
+.logo{
+    height: auto;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.head p{
+    font-size: 2rem;
+}
+
+.input{
+    width: 47vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.input input{
+    
+    border: 1px white;
+    padding: 14px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.input input:focus {
+    outline:none;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.main1{
+    line-height: 1.8;
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 10px;
+}
+
+.main1 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.content{
+    padding: 12px;
+}
+
+.collections{
+    margin-top: 80px;
+    line-height: 1.5;
+}
+
+.colls{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.coll-box{
+    height: 300px;
+    width: 250px;
+    background-color: teal;
+    border-radius: 10px;
+}
+
+.coll-box1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/res.jpeg');
+    background-size: cover;
+}
+
+.coll-box2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/ins.jpeg');
+    background-size: cover;
+}
+
+.coll-box3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/leg.jpeg');
+    background-size: cover;
+}
+
+.coll-box4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('./images/lux.webp');
+    background-size: cover;
+}
+
